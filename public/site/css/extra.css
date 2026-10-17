@@ -1,0 +1,7 @@
+/* Small utilities used by the Laravel views that the original static-site build did not include.
+   Safe to delete once Tailwind is built inside the Laravel project (content paths: resources/views). */
+.col-span-full { grid-column: 1 / -1; }
+.whitespace-pre-line { white-space: pre-line; }
+.p-8 { padding: 2rem; }
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+@media (min-width: 768px) { .md\:p-10 { padding: 2.5rem; } }

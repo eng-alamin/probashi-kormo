@@ -1,0 +1,15 @@
+# Paste these into your real .env (replace every value), then run:
+#   php artisan config:clear
+#   php artisan site:check
+
+SITE_PHONE="+880 1712-345678"
+SITE_EMAIL="info@yourdomain.com"
+SITE_ADDRESS="House 12, Road 3, Dhanmondi, Dhaka"
+# WhatsApp: country code first, no leading 0 (880 + 1712345678)
+SITE_WHATSAPP=8801712345678
+
+# Optional
+SITE_HOURS="Sat–Thu, 9am–6pm"
+# Google Maps > Share > Embed a map > copy ONLY the src="..." link
+SITE_MAP_EMBED="https://www.google.com/maps/embed?pb=..."
+SITE_LICENSE_NO="RL-0000"
