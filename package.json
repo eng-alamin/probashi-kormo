@@ -15,5 +15,8 @@
     "dependencies": {
         "bootstrap": "5.3",
         "bootstrap-icons": "1.11"
+    },
+    "overrides": {
+        "rollup": "npm:@rollup/wasm-node"
     }
 }
